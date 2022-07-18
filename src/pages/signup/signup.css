@@ -1,0 +1,79 @@
+.signUp-btn-StdLib {
+    border-radius: 4px;
+    padding: 4px 4px;
+    margin-left: 0px;
+    cursor: pointer;
+    background-color: var(--yellow-color);
+}
+
+.login-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .9);
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 1rem;
+    color: var(--primary-gray);
+}
+
+.input-group input {
+    width: 100%;
+    margin: 5px auto;
+    padding: 4px;
+    border: solid 2px var(--primary-gray);
+    border-radius: 5px;
+    height: 6vh;
+    font-size: 1.3rem;
+}
+
+.login-form-container.active {
+    right: 0;
+}
+
+.login_form-StdLib {
+    background: var(--white-hover);
+    border: var(--border);
+    width: 40rem;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin: 2rem;
+}
+
+.heading-login {
+    font-size: 2.5rem;
+    color: var(--dark-color);
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.box {
+    width: 100%;
+    margin: .7rem 0;
+    font-size: 1.6rem;
+    border: var(--dark-color);
+    border-radius: .5rem;
+    padding: 1rem 1.2rem;
+    color: var(--dark-color);
+    text-transform: none;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+}
+
+.login-form-container form .btn {
+    text-align: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}

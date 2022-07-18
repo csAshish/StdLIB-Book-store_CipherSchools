@@ -1,0 +1,52 @@
+{
+  "name": "booklib",
+  "homepage": "https://Ayushi11-hue.github.io/E-commerce_BookStore_CipherSchools",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.0",
+    "eslintrc-generator": "^1.1.1",
+    "generator-eslint": "^3.0.1",
+    "jwt-decode": "^3.1.2",
+    "jwt-encode": "^1.0.1",
+    "miragejs": "^0.1.43",
+    "mock-man": "0.0.8",
+    "mockman-js": "^1.0.5",
+    "react": "^17.0.2",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.1"
+  }
+}

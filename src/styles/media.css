@@ -1,0 +1,216 @@
+@media (max-width:991px) {
+
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px) {
+
+    html {
+        scroll-padding-top: 0;
+    }
+
+    body {
+        padding-bottom: 6rem;
+    }
+
+    .bottom-navbar {
+        display: block;
+    }
+
+    div.icons {
+        gap: 1rem;
+    }
+
+    .search-form {
+        position: absolute;
+        top: 12rem;
+        width: 75%;
+        box-shadow: var(--box-shadow);
+        height: 3rem;
+    }
+
+    .search-icon {
+        font-size: 2rem;
+    }
+
+    .header .header-StdLib {
+        box-shadow: var(--box-shadow);
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-form.active {
+        top: 115%;
+        width: 92%;
+    }
+
+    .content_for-StdLib {
+        text-align: center;
+    }
+
+    .style-head {
+        margin-top: 2rem;
+    }
+
+    .icons-container {
+        margin-left: 7rem;
+    }
+
+    .deal-image {
+        margin-left: 12rem;
+        height: 35vh;
+    }
+
+
+    .deal {
+        margin-top: 8rem;
+    }
+
+    .cards_for-wish {
+        margin-top: -14rem;
+    }
+
+    .cards_for-book {
+        top: 18rem;
+        position: relative;
+        margin-top: -25rem;
+        margin-bottom: 5rem;
+    }
+
+
+    .cards_for-book-category {
+        top: -4rem;
+        position: relative;
+    }
+
+    .bg-wishlist {
+        margin-top: -2rem;
+    }
+
+    .bg-cart {
+        margin-top: -11rem;
+    }
+
+    .bill-cart {
+        margin-top: 8rem;
+    }
+
+    .product-description {
+        margin-top: 3rem;
+        width: 40rem;
+    }
+
+    /* Filter section */
+    .invisible {
+        display: none;
+    }
+
+    section.filter-drawer {
+        position: fixed;
+        width: 60%;
+        height: 90vh;
+        overflow: auto;
+        z-index: 9;
+        top: 14%;
+    }
+
+    div.StdLib-container {
+        grid-template-columns: 100%;
+        margin-top: -3rem;
+    }
+
+    div.filter_btn-book {
+        display: block;
+    }
+
+    div.cart-StdLib {
+        margin-top: 0rem;
+    }
+
+    .cart-book {
+        display: flex;
+    }
+
+    .cart-container {
+        display: flex;
+        flex-direction: column;
+        column-gap: 2rem;
+    }
+
+    .cart-StdLib .cart-1 {
+        width: 90%;
+        margin-top: 25rem;
+    }
+
+    .cart-1 {
+        height: 34rem;
+        margin-left: 1.4rem;
+    }
+
+    .img1.single-page-pimage {
+        padding: 1rem;
+        height: 37rem;
+    }
+
+    .center3.sp-page-image {
+        width: 58%;
+        padding: 1rem;
+        height: 38.5rem;
+    }
+
+    .signUp-btn-StdLib {
+        font-size: 1.2rem;
+    }
+
+    div.main-style {
+        margin-top: 4rem;
+    }
+
+    .cart-items-fix {
+        margin-top: 25rem;
+    }
+
+    .task-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.task-list-header {
+        height: 5vh;
+    }
+
+    .order-details {
+        height: fit-content;
+    }
+
+    h1.productId {
+        margin-top: 16rem;
+    }
+
+    h1.first {
+        margin-top: 16rem;
+    }
+
+    h2.first {
+        margin-top: 16rem;
+    }
+
+    div.input-group input {
+        height: 4vh;
+    }
+
+    section.checkout-container .checkout-wrapper {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+}

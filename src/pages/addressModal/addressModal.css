@@ -1,0 +1,55 @@
+.modal-form-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: grid;
+  place-items: center;
+}
+
+.form-modal {
+  position: relative;
+  background-color: var(--white-hover);
+  width: 30rem;
+  margin-top: 12rem;
+  border: 1px solid var(--light-bg);
+}
+
+.add-input,
+.add-btn {
+  border: solid 2px var(--bg-color);
+  border-radius: 4px;
+  padding: 0.3rem;
+}
+
+.dummy-btn {
+  padding: 0.6rem 4rem;
+  margin-top: 4px;
+}
+
+input[type="text"] {
+  font-size: 1.2rem;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.add-btn {
+  background-color: var(--bg-color);
+  color: var(--primary-gray);
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0.6rem;
+}
+
+.fa-times-circle {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  font-size: 2.5rem;
+}

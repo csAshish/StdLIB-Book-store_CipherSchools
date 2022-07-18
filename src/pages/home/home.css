@@ -1,0 +1,173 @@
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.content_for-StdLib {
+    flex: 1 1 42rem;
+}
+
+.style-description {
+    font-size: 2rem;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+.style-image {
+    position: relative;
+    top: 5rem;
+    height: 300px;
+    max-width: 100%;
+    margin: auto;
+    left: 0%;
+}
+
+.style-yellow {
+    color: #6976d9;
+    margin-left: 10px;
+}
+
+.style-head {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -.5px;
+}
+
+.btn-bookooze {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.9rem 3rem;
+    border-radius: 0.5rem;
+    color: var(--primary-gray);
+    background-color: var(--yellow-color);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 900;
+    border: 2px solid var(--yellow-color);
+}
+
+.btn-bookooze:hover {
+    border-color: var(--white-hover);
+}
+
+.books-slider {
+    flex: 1 1 67rem;
+    margin-top: 2rem;
+}
+
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    cursor: pointer;
+}
+
+.icons_for-StdLib {
+    font-size: 3.5rem;
+    color: var(--bg-color);
+}
+
+.port-shipping {
+    font-size: 2.2rem;
+    padding-bottom: .5rem;
+}
+
+.facility_for-port {
+    font-size: 1.4rem;
+    color: var(--dark-color);
+}
+
+/* Deal section starts  */
+.deal {
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.deal-content {
+    flex: 1 1 42rem;
+}
+
+.deal-heading {
+    color: var(--bg-color);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+.off-deal {
+    font-size: 4rem;
+}
+
+.heading {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    text-align: center;
+    position: relative;
+}
+
+.category-head {
+    margin-bottom: 12rem;
+    margin-top: 5rem;
+    text-align: center;
+    position: relative;
+}
+
+.card-vertical {
+    transition: all 0.6s ease-in-out;
+}
+
+.card-vertical:hover {
+    box-shadow: var(--light-bg) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+}
+
+.deal-desc {
+    padding: 1rem 0;
+    color: var(--dark-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    background-color: var(--off-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-container.active {
+    display: none;
+}
+
+.loader-container img {
+    height: 10rem;
+}
+
+.category-card-bookub {
+    cursor: pointer;
+}

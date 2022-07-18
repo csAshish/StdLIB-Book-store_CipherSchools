@@ -1,0 +1,56 @@
+.StdLib-container {
+    display: grid;
+    grid-template-columns: 20% auto;
+    margin-top: 8rem;
+}
+
+.filter-drawer {
+    border-right: var(--border);
+    background-color: var(--white-hover);
+    position: sticky;
+    top: 8rem;
+    height: 90vh;
+    overflow: auto;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    accent-color: var(--yellow-color);
+}
+
+.filter h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hr_line-book {
+    display: block;
+    width: 100%;
+    border-top: 2px solid var(--light-color);
+    margin: 2rem auto;
+}
+
+.filter_btn-book {
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    z-index: 9;
+    display: none;
+}
+
+.filter_btn-book .btn_for-StdLib {
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--yellow-color);
+    color: var(--dark-color);
+    cursor: pointer;
+}

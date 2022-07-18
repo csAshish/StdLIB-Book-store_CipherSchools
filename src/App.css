@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+/* My Component Library link  */
+@import url("https://rebalance-ui.netlify.app/all_component.css");
+/* All CSS Links */
+@import url("../src/styles/navbar.css");
+@import url("../src/styles/footer.css");
+@import url("../src/styles/reset.css");
+@import url("../src/styles/media.css");
+@import url("./pages/home/home.css");
+@import url("./pages/login/login.css");
+@import url("./pages/signup/signup.css");
+@import url("./pages/product/drawer/drawer.css");
+@import url("./pages/product/card/card.css");
+@import url("./pages/wishlist/wishlist.css");
+@import url("./pages/cart/cart.css");
+@import url("./pages/page_not_found/notfound.css");
+@import url("./pages/ProductDetail/productDetail.css");
+@import url("../src/pages/checkout/checkout.css");
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-style {
+    flex-grow: 1;
+}

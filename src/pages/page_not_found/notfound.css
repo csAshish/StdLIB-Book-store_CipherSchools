@@ -1,0 +1,10 @@
+.not-found-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16rem;
+}
+.not-found-image{
+    width: 80%;
+    height: 65vh;
+}

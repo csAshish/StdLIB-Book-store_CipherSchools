@@ -1,0 +1,55 @@
+.task-container {
+    background-color: var(--white-hover);
+    border-radius: 1.2rem;
+    margin: -2rem auto 1.2rem auto;
+    height: 65vh;
+    position: relative;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.task-container::-webkit-scrollbar {
+    display: none;
+}
+
+.task-list-header {
+    position: sticky;
+    top: 0px;
+    background-color: var(--alert-hover);
+    height: 7vh;
+    padding: 1rem;
+}
+
+.task-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 4px 1rem;
+    margin-bottom: 1.2rem;
+    color: var(--primary-gray);
+    box-shadow: 0 0 2px 1px var(--light-bg);
+}
+
+.task-item-btns {
+    align-self: flex-end;
+    padding: 0 1rem;
+}
+
+.fa-circle-plus {
+    background-color: var(--alert-hover);
+}
+
+.fa-pen-to-square {
+    color: var(--yellow-color);
+    background-color: var(--white-hover);
+    font-size: 2rem;
+}
+
+.fa-trash-can {
+    color: var(--price-tag);
+    background-color: var(--white-hover);
+    font-size: 2rem;
+}

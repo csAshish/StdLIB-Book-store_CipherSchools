@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+/* My Component Library link  */
+@import url("https://rebalance-ui.netlify.app/all_component.css");
+
+.home {
+    background-color: #ffc107;
+    padding: 13rem 6%;
+}
+
+section {
+    padding: 6rem 6%;
+}
+
+.heading::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    height: .01rem;
+    background: rgba(0, 0, 0, .1);
+    z-index: -1;
+}
+
+.heading span {
+    font-size: 3rem;
+    padding: .5rem 2rem;
+    background: var(--white-hover);
+    border: 2px solid var(--secondary-gray);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.heading span:hover {
+    border-color: var(--yellow-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 4px 4px;
+    border-radius: .5rem;
+    color: black;
+    background: var(--yellow-color);
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: var(--white-hover);
+}
+
+.header-StdLib {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #6976d9;
+    padding: 1.5rem 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--primary-gray);
+}
+
+.search-form {
+    width: 50rem;
+    height: 4.5rem;
+    border: var(--border);
+    overflow: hidden;
+    background: var(--white-hover);
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+#search-btn {
+    display: none;
+}
+
+.input-StdLib {
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+}
+
+.search-icon {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    cursor: pointer;
+    margin-top: 0rem;
+}
+
+.search-icon:hover {
+    color: var(--dark-color);
+}
+
+.header-icons {
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    color: var(--primary-gray);
+    cursor: pointer;
+}
+
+.badge-icon {
+    color: var(--primary-gray);
+    border: 2px solid var(--yellow-color);
+    border-radius: 50%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: -2.7rem;
+    height: 2.2rem;
+    width: 2.2rem;
+    text-align: center;
+    background-color: var(--yellow-color);
+    transform: translate(25%, -50%);
+    margin-left: 1rem;
+}
+
+.header-icons:hover {
+    color: var(--secondary-gray);
+}

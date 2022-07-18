@@ -1,0 +1,33 @@
+.cards_for-book {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 2rem;
+}
+
+.heading-primary {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.sub-heading {
+    margin-top: -1px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.price-tag {
+    text-align: center;
+    font-size: 1.3rem;
+    color: var(--price-tag);
+    padding: 0.5rem;
+}
+
+.overlay-text{
+    background-color: rgba(0,0,0,0.4);
+    width: 21rem;
+    color: var(--white-hover);
+    border-radius: 4px;
+    font-size: 1.7rem;
+}

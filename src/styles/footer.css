@@ -1,0 +1,44 @@
+.footer-StdLib {
+    margin-bottom: -6rem;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.share {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer_for-StdLib {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2.3rem;
+    color: var(--white-hover);
+    background: var(--bg-color);
+    margin: 0 1.3rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.footer_for-StdLib:hover {
+    background-color: var(--dark-color);
+}
+
+.credit {
+    border-top: var(--border);
+    margin-top: 2rem;
+    padding: 0 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: var(--dark-color);
+    text-align: center;
+}
+
+.credit span {
+    color: var(--primary-gray);
+}
